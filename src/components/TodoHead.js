@@ -49,3 +49,5 @@ export default function TodoHead() {
     </TodoHeadBlock>
   );
 }
+
+React.memo(TodoHead)

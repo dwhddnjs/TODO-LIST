@@ -17,6 +17,8 @@ const TodoTemplateBlock = styled.div`
   flex-direction: column;
 `;
 
-export default function ({ children }) {
+export default function TodoTemplate({ children }) {
   return <TodoTemplateBlock>{children}</TodoTemplateBlock>;
 }
+
+React.memo(TodoTemplate)

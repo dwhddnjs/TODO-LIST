@@ -83,3 +83,5 @@ export default function TodoItem({ id, done, text }) {
     </TodoItemBlock>
   );
 }
+
+React.memo(TodoItem)

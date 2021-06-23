@@ -81,4 +81,4 @@ export function useTodoNextId() {
     
 }
 
-
+React.memo(TodoProvider)
